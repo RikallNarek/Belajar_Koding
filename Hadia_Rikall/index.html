@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mystery Gift 🎁</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                #ffd6e7,
+                #fff0f5
+            );
+
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .gift {
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 32px;
+        }
+
+        p {
+            color: #555;
+            font-size: 17px;
+        }
+
+        button {
+            margin-top: 25px;
+
+            padding: 15px 30px;
+
+            border: none;
+            border-radius: 30px;
+
+            background: #ff4d88;
+            color: white;
+
+            font-size: 17px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e63e75;
+        }
+
+        #foto {
+            display: none;
+            width: 280px;
+            max-width: 80%;
+            border-radius: 20px;
+            margin: 20px auto;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="gift">
+            
+        </div>
+
+        <h1>
+            POV LYNA SAKIT
+        </h1>
+
+        <p>
+           Tai brara 
+        </p>
+<img
+    id="foto"
+    src="foto.jpg"
+    alt="Foto untuk kamu"
+>
+
+<button onclick="bukaHadiah()">
+    BUKA
+</button>
+
+    </div>
+
+    <script>
+
+        function bukaHadiah() {
+
+            document.getElementById("foto").style.display = "block";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
